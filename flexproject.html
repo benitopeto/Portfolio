@@ -1,0 +1,122 @@
+<! doctype html>
+
+ <html>
+ <head>
+  <title>Flex Project</title>
+  <style>
+      #header1{
+	       display:flex;
+		   width:98vw;
+		   height:20vh;
+		   background:green;
+		   justify-content:center;
+		   align-items:center;
+		   border-bottom-width:10px;
+		   border-bottom-color:red;
+		   border-bottom-style:solid;
+	  }
+	  ul{
+	  display:flex;
+	  
+	  
+	  }
+	  li{
+	     padding:20px;
+		 
+		 display:flex;
+		 font-size:35px;
+		 
+	  }
+	  a{
+	  text-decoration:none;
+	  
+	  color:white;
+	  
+	  }
+	  #text1{
+	  display:flex;
+	  font-size:50px;
+	  color:red;
+	 /* align-items:center;*/
+	  /*justify-content:center;*/
+	  /*flex-grow:2;*/
+	  flex-direction:column;
+	  
+	  
+	  }
+	  #yell{
+	      color:green;
+		  top:10px;
+	  }
+	  span{
+	    color:green;
+		font-size:35px;
+	  }
+	  #imgsec{
+	      display:flex;
+		  
+	      width:98vw;
+		  height:50vh;
+		  justify-content:space-evenly;
+		  gap:1em;
+		  
+		  
+	  }
+	  #img1{
+	     width:300px;
+		 height:300px;
+		 background:blue;
+		 flex-grow:2;
+	  }
+	  
+	  #img3{
+	     width:300px;
+		 height:300px;
+		 background:black;
+		 background-image:url("kahawa.jpg");
+		 background-repeat:no-repeat;
+		 background-size:300px 300px;
+		 
+	  }
+	  #img4{
+	     width:300px;
+		 height:300px;
+		 background:yellow;
+	  }
+  </style>
+ </head>
+ 
+  <body>
+  
+   <header id="header1">
+   
+     <ul>
+	  <li><a href="index.html">Home</a></li>
+	   <li><a href="about.html">About</a></li>
+	    <li><a href="services.html">Services</a></li>
+		 <li><a href="index.html">Home</a></li>
+	 
+	 </ul>
+   
+   </header>
+   <section id="text1">
+   <h1 onmouseover="document.getElementById('header1').style.background='blue'";>Benito Peto's site<br/><span>With the best of the services offered</span></h1>
+   
+       </section>
+   
+   <section id="imgsec">
+         <div id="img1">
+		 </div>
+		 
+		 <div id="img3">
+		 </div>
+		 <div id="img4">
+		 </div>
+   </section>
+     
+   
+
+  
+  </body>
+ 
+ </html>
