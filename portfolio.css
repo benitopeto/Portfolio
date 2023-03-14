@@ -132,7 +132,7 @@ header>a:hover{
 	width:98vw;
 	height:150vh;
 	background:#c4d6e2;
-	
+	font-size:20px;
 	display:flex;
 	flex-wrap:wrap;
 	align-items:center;
@@ -157,8 +157,9 @@ header>a:hover{
 #myphoto{
 	
 	position:relative;
-	top:80px;
+	top:0px;
 	
+	left:50px;
 	
 }
 }
