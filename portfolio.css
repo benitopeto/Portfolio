@@ -144,7 +144,7 @@ a{
 	header{
 	
 	width:98vw;
-	height:35vh;
+	height:45vh;
 	
 	
 	background:#A25D85;
@@ -184,7 +184,7 @@ header>a:hover{
 	display:flex;
 	flex-wrap:wrap;
 	align-items:center;
-	
+	align-content:flex-start;
 	border-right-color:black;
 	border-right-style:solid;
 	border-right-width:10px;
@@ -194,7 +194,7 @@ header>a:hover{
 	
 }
 #content1{
-	width:70vw;
+	width:100vw;
 	height:40vh;
 	padding:20px;
 	margin-left:30px;
