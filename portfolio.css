@@ -44,7 +44,7 @@ a{
 	max-width:100vw;
 	max-height:30vh;
 	width:100vw;
-	height:40vh;
+	height:7vh;
 	background:#5DA27A;
 	display:flex;
 	
@@ -59,7 +59,7 @@ a{
 	top:30px;
 }
 #myportfolio{
-	font-size:40px;
+	font-size:20px;
 	font-family:Futura PT;
 	color:white;
 }
@@ -68,7 +68,7 @@ a{
 	max-height:100vh;
 	width:100vw;
 	height:100vh;
-	background:#c4d6e2;
+	background:white;
 	
 	display:flex;
 	justify-content: space-between;
@@ -192,7 +192,7 @@ a{
 	header{
 	
 	width:100vw;
-	height:45vh;
+	height:35vh;
 	
 	
 	background:#A25D85;
@@ -210,36 +210,44 @@ a{
 
 header>a:hover{
 	padding:10px;
-	font-size:25px;
+	font-size:20px;
 	
 	text-decoration:none;
 }
 header>div{
-	padding:20px;
+	padding:10px;
 	
 	width:600px;
 	text-align:center;
 	
 }
 header>div:hover{
-	padding:20px;
+	padding:10px;
 	background:#5DA27A;
 	width:600px;
 	text-align:center;
 	
 }
+
 .sec1{
+	width:100vw;
+	height:10vh;
 	justify-content:center;
 	align-items:center;
 	text-align:center;
 	
+}
+#myportfolio{
+	font-size:20px;
+	font-family:Futura PT;
+	color:white;
 }
 .sec2{
 	max-width:100vw;
 	max-height:200vh;
 	width:100vw;
 	height:250vh;
-	background:#c4d6e2;
+	background:white;
 	font-size:5px;
 	display:flex;
 	flex-wrap:wrap;
