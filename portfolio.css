@@ -90,11 +90,16 @@ a{
 }
 
 #myphoto{
-	width:40vw;
+	width:30vw;
 	height:50vh;
 	background-image:url("BENSONEE.png");
 	background-size:25vw 45vh;
+	background-position:center;
+	margin-right:80px;
+	box-sizing:border-box;
 	background-repeat:no-repeat;
+	background-color:#5DA27A;
+	border-radius:20px;
 	position:relative;
 	top:40px;
 	
@@ -119,7 +124,7 @@ a{
 	height:80vh;
 	
 	background:#A25D85;
-	border-radius:20px;
+	border-radius:5px;
 	color:white;
 	padding:20px;
 	
@@ -130,6 +135,7 @@ a{
 #myphoto{
 	width:40vw;
 	height:50vh;
+	margin-right:0px;
 	background-image:url("BENSONEE.png");
 	background-size:35vw 45vh;
 	background-repeat:no-repeat;
@@ -144,7 +150,7 @@ a{
 	max-width:100vw;
 	max-height:200vh;
 	width:100vw;
-	height:150vh;
+	height:250vh;
 	background:#c4d6e2;
 	
 	display:flex;
@@ -232,7 +238,7 @@ header>div:hover{
 	max-width:100vw;
 	max-height:200vh;
 	width:100vw;
-	height:150vh;
+	height:250vh;
 	background:#c4d6e2;
 	font-size:5px;
 	display:flex;
