@@ -361,12 +361,22 @@ header>div:hover{
 	letter-spacing:2px;
 	
 }
+#myphoto{
+	width:70vw;
+	height:60vh;
+	background-image:url("BENSONEE.png");
+	background-size:50vw 30vh;
+	background-repeat:no-repeat;
+	position:relative;
+	top:10px;
+	
+}
 
 @media only screen and (max-width: 324px) {
 	
 	#content1{
 	width:70vw;
-	height:150vh;
+	height:140vh;
 	padding:20px;
 	
 	font-size:25px;
