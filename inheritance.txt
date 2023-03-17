@@ -1,0 +1,22 @@
+class Cars:
+
+    def __init__(self,type,color,year):
+        self.type=type
+        self.color=color
+        self.year=year
+
+    def Hoot(self):
+        print(self.type," has hoot")
+
+    def Start(self):
+        print("A",self.type,"of color",self.color,"has start")
+
+class Birds(Cars):
+    
+    pass
+
+obj1=Birds("Pigeon","white",2022)
+obj2=Birds("pickock","black",2023)
+obj1.Start()
+obj1.Hoot()
+obj2.Start()

@@ -1,0 +1,31 @@
+class Human:
+    #age=12
+    #name="john"
+
+     #This method assist in initialization
+    def __init__(self,age,name):
+
+        self.age=age
+        self.name=name
+
+    def display(self):
+        print("my name is",self.name,"and age is",self.age)
+
+    def show(self):
+        print("jay is ",self.age," years old")
+
+obj1=Human(40,"kim")
+obj2=Human(23,"jay")
+
+print(obj1.age)
+print(obj1.name)
+
+obj1.display()
+obj2.display()
+obj2.show()
+        
+
+        
+    
+
+    
