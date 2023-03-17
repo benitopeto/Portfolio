@@ -171,7 +171,7 @@ a:hover{
 	border-radius:5px;
 	color:#3b3c36;
 	padding:20px;
-	
+	text-align:center;
 	font-size:25px;
 	letter-spacing:4px;
 	
@@ -228,7 +228,7 @@ a:hover{
 	border-radius:20px;
 	color:#3b3c36;
 	padding:20px;
-	
+	text-align:center;
 	font-size:25px;
 	letter-spacing:4px;
 	gap:1;
@@ -323,9 +323,9 @@ header>div:hover{
 	width:70vw;
 	height:90vh;
 	padding:20px;
-	
+	text-align:center;
 	font-size:25px;
-	text-align:left;
+	
 	letter-spacing:2px;
 	
 }
@@ -357,7 +357,7 @@ header>div:hover{
 	padding:20px;
 	
 	font-size:25px;
-	text-align:left;
+	text-align:center;
 	letter-spacing:2px;
 	
 }
@@ -378,9 +378,9 @@ header>div:hover{
 	width:70vw;
 	height:140vh;
 	padding:20px;
-	
+	text-align:center;
 	font-size:25px;
-	text-align:left;
+	
 	letter-spacing:2px;
 	
 }
@@ -388,5 +388,15 @@ header>div:hover{
 	align-self:flex-end;
 	color:#C4463B;
 	font-size:15px;
+}
+#myphoto{
+	width:70vw;
+	height:50vh;
+	background-image:url("BENSONEE.png");
+	background-size:50vw 20vh;
+	background-repeat:no-repeat;
+	position:relative;
+	top:10px;
+	
 }
 }
