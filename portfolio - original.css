@@ -277,10 +277,34 @@ header>div:hover{
 	 
   }
   
-
-
-
 }
+#cont1{
+    display:flex;
+	flex-direction:column;
+	
+	margin-top:40px;
+	width:100vw;
+	height:40vh;
+	background:#3BB9C4;
+	justify-content:center;
+	align-items:center;
+	
+  }
+   #cont2{
+     display:flex;
+	 flex-direction:column;
+	 width:100vw;
+	 height:40vh;
+	 margin-top:40px;
+	 background:#C4463B;
+	 border-radius:20px;
+	 padding:20px;
+	 font-size:20px;
+	 gap:1em;
+  }
+  #cont2>input{
+  padding:10px;
+  }
 @media only screen and (max-width: 508px) {
 	.services1{
 	  max-height:400vh;
@@ -297,6 +321,33 @@ header>div:hover{
   #service-item1{
 	  margin:40px;
 	 
+  }
+  #cont1{
+    display:flex;
+	flex-direction:column;
+	
+	margin-top:40px;
+	width:100vw;
+	height:40vh;
+	background:#3BB9C4;
+	justify-content:center;
+	align-items:center;
+	
+  }
+   #cont2{
+     display:flex;
+	 flex-direction:column;
+	 width:100vw;
+	 height:40vh;
+	 margin-top:40px;
+	 background:#C4463B;
+	 border-radius:20px;
+	 padding:20px;
+	 font-size:20px;
+	 gap:1em;
+  }
+  #cont2>input{
+  padding:10px;
   }
   @media only screen and (max-width: 415px) {
 	.services1{
