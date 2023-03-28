@@ -1,0 +1,17 @@
+html,body{
+	
+	width:100vw;
+	height:100vh;
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+	
+}
+
+.sec2{
+	width:100vw;
+	height:50vh;
+	background:grey;
+	display:flex;
+	
+}
