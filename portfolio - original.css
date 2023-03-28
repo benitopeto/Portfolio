@@ -134,9 +134,11 @@ a:hover{
 	background:#3BB9C4;
 	justify-content:center;
 	align-items:center;
+	position:relative;
 	
   }
    #cont2{
+	   position:absolute;
      display:flex;
 	 flex-direction:column;
 	 width:40vw;
